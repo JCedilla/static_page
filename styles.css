@@ -19,20 +19,40 @@ body {
 
 .Socials {
     display: flex;
-    justify-content: space-between;  
-    width: 100%;                     
+    justify-content: space-between; /* Align items to left, center, and right */
+    flex-wrap: wrap;                /* Allow items to wrap if needed */
     margin-top: 20px;
 }
 
-.Socials a {
-    text-decoration: none;            
-    padding: 10px;
-    color: black;                     
-    font-weight: bold;
-    cursor: default;
+.Socials a:hover{
+    color: white !important;
+    cursor: pointer;
 }
 
-.Socials a:hover {
-    color: white;
+.social-item {
+    display: flex;
+    flex-direction: column; /* Stack text and image vertically */
+    align-items: center;    /* Center items horizontally */
+    text-align: center;     /* Center text inside the item */
+}
+
+.social-item a {
+    text-decoration: none;
+    color: black; /* Default text color */
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-item img {
+    width: 50px;    
+    height: auto;   
+    transition: filter 0.3s; 
+}
+
+
+.social-item a:hover img {
+    filter: brightness(0) invert(1); /* Changes color to white or inverse */
     cursor: default;
 }
