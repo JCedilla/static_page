@@ -9,7 +9,7 @@ body {
 
 .Text_box {
     width: 400px;
-    height: 500px;
+    height: 550px;
     background-color: #6495ED;
     text-align: center;
     margin: 10px 0;
@@ -55,4 +55,18 @@ body {
 .social-item a:hover img {
     filter: brightness(0) invert(1); /* Changes color to white or inverse */
     cursor: default;
+}
+
+.container {
+    text-align: center;
+}
+
+.cookie-display {
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.container p {
+    font-weight: bold;
 }
