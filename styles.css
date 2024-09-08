@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;       
+    background-color: azure;
+    background: linear-gradient(to bottom, #F0F8FF, #6495ED);
+}
+
+.Text_box {
+    width: 400px;
+    height: 500px;
+    background-color: #6495ED;
+    text-align: center;
+    margin: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 7px black solid;
+}
+
+.Socials {
+    display: flex;
+    justify-content: space-between;  
+    width: 100%;                     
+    margin-top: 20px;
+}
+
+.Socials a {
+    text-decoration: none;            
+    padding: 10px;
+    color: black;                     
+    font-weight: bold;
+}
