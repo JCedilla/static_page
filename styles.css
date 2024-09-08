@@ -29,4 +29,10 @@ body {
     padding: 10px;
     color: black;                     
     font-weight: bold;
+    cursor: default;
+}
+
+.Socials a:hover {
+    color: white;
+    cursor: default;
 }
