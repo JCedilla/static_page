@@ -11,10 +11,12 @@ body {
     width: 400px;
     height: 550px;
     background-color: #6495ED;
+    background: linear-gradient(to bottom, #6495ED, hsl(219, 100%, 88%));
     text-align: center;
-    margin: 10px 0;
     font-family: Helvetica;
+    margin: 10px 0;
     border: 7px black solid;
+    border-radius: 10px;
     padding: 10px;
 }
 
@@ -84,6 +86,7 @@ body {
     background-color: hsl(213, 100%, 87%);
     border-radius: 5px;
     margin: 10px;
+    cursor: pointer;
 }
 
 .reset-btn {
@@ -92,6 +95,7 @@ body {
     background-color: black;
     border-radius: 5px;
     margin: 10px;
+    cursor: pointer;
 }
 
 .container p {
