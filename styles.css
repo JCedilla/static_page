@@ -13,8 +13,14 @@ body {
     background-color: #6495ED;
     text-align: center;
     margin: 10px 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica;
     border: 7px black solid;
+    padding: 10px;
+}
+
+.Text_box p {
+    font-weight: bold;
+    color:#F0F8FF
 }
 
 .Socials {
@@ -34,6 +40,7 @@ body {
     flex-direction: column; /* Stack text and image vertically */
     align-items: center;    /* Center items horizontally */
     text-align: center;     /* Center text inside the item */
+    padding: 10px;
 }
 
 .social-item a {
@@ -55,18 +62,38 @@ body {
 .social-item a:hover img {
     filter: brightness(0) invert(1); /* Changes color to white or inverse */
     cursor: default;
+
+        transform: translateY(-10px);
 }
 
 .container {
     text-align: center;
+    font-family: Helvetica;
+}
+ .cookie-display {
+    margin-bottom: 20px;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: Helvetica;
 }
 
-.cookie-display {
-    margin-bottom: 20px;
-    font-size: 2em;
-    font-weight: bold;
+.buton{
+    padding: 10px 20px;
+    color: white;
+    background-color: hsl(213, 100%, 87%);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.reset-btn {
+    padding: 10px 20px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    margin: 10px;
 }
 
 .container p {
     font-weight: bold;
+    color: black;
 }
