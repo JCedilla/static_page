@@ -31,7 +31,7 @@ body {
 }
 
 .Socials a:hover{
-    color: white !important;
+    color: white;
     cursor: pointer;
 }
 
